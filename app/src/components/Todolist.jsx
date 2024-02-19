@@ -58,7 +58,7 @@ export default function Todolist(props) {
     )
 
     const viewTemplate = (
-        <div>
+        <div className="view-template">
             <div>
                 <input
                     id={id}
